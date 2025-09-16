@@ -7,12 +7,34 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>com.kingsrook</groupId>
    <artifactId>qbit-build-parent</artifactId>
-   <version>1.0.0</version>
+   <version>1.1.0-SNAPSHOT</version>
    <packaging>pom</packaging>
 
    <name>QRunIO QBit Build Parent</name>
    <description>Central build configuration and publishing settings for all QRunIO QBit projects published via our CICD pipelines.</description>
-   <url>https://github.com/Kingsrook</url>
+   <url>https://github.com/Kingsrook/qbit-bom</url>
+   <licenses>
+      <license>
+         <name>GNU Affero General Public License v3.0</name>
+         <url>https://www.gnu.org/licenses/agpl-3.0-standalone.html</url>
+         <distribution>repo</distribution>
+      </license>
+   </licenses>
+   <scm>
+      <connection>scm:git:https://github.com/Kingsrook/qbit-bom.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/Kingsrook/qbit-bom.git</developerConnection>
+      <url>https://github.com/Kingsrook/qbit-bom</url>
+      <tag>HEAD</tag>
+   </scm>
+   <developers>
+      <developer>
+         <id>kingsrook</id>
+         <name>Kingsrook, LLC</name>
+         <email>pub@qrun.io</email>
+         <organization>Kingsrook, LLC</organization>
+         <organizationUrl>https://qrun.io</organizationUrl>
+      </developer>
+   </developers>
 
    <properties>
       <java.version>17</java.version>
